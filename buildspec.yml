@@ -2,10 +2,8 @@ version: 0.4
 
 phases:
   install:
-	runtime-versions:
-		java: opnejdk8
-    commands:
-    - echo installing .......
+    runtime-versions:
+      java: corretto8
   pre_build:
     commands:
       - echo pre_build
